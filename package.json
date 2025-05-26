@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "main": "npx tsx src/main.ts"
+    "main": "npx tsx src/main.ts",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "jest": {
     "preset": "ts-jest",
